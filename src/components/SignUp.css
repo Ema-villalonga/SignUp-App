@@ -1,0 +1,37 @@
+.container-form{
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 8px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form input {
+    font-size: 1.2rem;
+    width: 80%;
+    outline: none;
+}
+
+.btn-join{
+    width: 80%;
+    cursor: pointer;
+    background-color: rgb(55, 55, 245);
+    color: rgb(255, 255, 255);
+    padding: 18px;
+    margin: 8px;
+    border-radius: 8px;
+    transition: all .8s;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.btn-join:hover{
+    background-color: rgb(6, 6, 235);
+
+}
