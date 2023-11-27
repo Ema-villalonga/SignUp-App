@@ -12,8 +12,6 @@ export default function SignUp(){
                     <input type="tel" placeholder="Enter your phone number" />
                     <input type="password" placeholder="Enter your password" />
                     <input type="password" placeholder="Repeat your password" />
-
-
                 <button className="btn-join">Join</button>
             </form>
         </section>
